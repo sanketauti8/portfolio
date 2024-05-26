@@ -24,6 +24,7 @@ const AllProjects = () => {
             <img src={project.logo} className="project-logo" alt={project.title} />
             <div className="card-body">
               <h5 className="card-title">{project.title}</h5>
+              <p >TechStack : {project.TechnologyStack}</p>
               <p className="card-subtitle mb-2 text-body-secondary">{project.description}</p>
               
               <div className="project-link">

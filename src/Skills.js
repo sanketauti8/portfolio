@@ -37,7 +37,7 @@ const Skills = () => {
               <li>Docker</li>
               <li>AWS- elastic beanstalk</li>
               <li>AWS- S3</li>
-              <li>AWS- serverless</li>
+              <li>AWS- ec2</li>
               <li>Vercel</li>
               <li>Redis</li>
               <li>SQL & NoSQL Databases</li>
