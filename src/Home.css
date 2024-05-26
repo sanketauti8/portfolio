@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+/*   
+  .jumbotron {
+    background-image: url('path/to/your/background-image.jpg'); Add a background image if you want
+    background-size: cover;
+    background-position: center;
+    color: white;
+  } */
+  
+  .section-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .project, .experience, .education {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
