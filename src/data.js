@@ -52,7 +52,7 @@ const INFO = {
         title: "Project 3 : Inventory-Track",
         TechnologyStack:"HTML5, CSS3, React, JavaScript, Flask, Python, SQLAlchemy",
         description:
-          "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+          "The Inventory Management System is a robust web application built with React, JavaScript, Flask, Python, SQLAlchemy, HTML, and CSS. It features a secure and efficient backend developed with Flask and SQLAlchemy, ensuring data integrity and security. The dynamic React frontend enhances user interactions, providing an intuitive and responsive interface for managing inventory. The system includes comprehensive admin access controls, preventing unauthorized access and ensuring accurate permission assignments. Users can seamlessly add, update, and delete inventory items, track stock levels, and generate reports. This project demonstrates advanced web development skills and a deep understanding of creating secure, user-friendly, and efficient inventory management solutions.",
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/Projects/tree/main/Inventory%20Management%20System",
@@ -70,7 +70,7 @@ const INFO = {
         title: "Project 5 : Movie-Mania",
         TechnologyStack:"HTML5, CSS3, React, Movie API",
         description:
-          "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+          "Movie-Mania is an engaging web application crafted using HTML5, CSS3, and React, leveraging the power of a movie API to offer users a dynamic and immersive movie browsing experience. With a sleek and intuitive user interface, users can explore a vast library of movies, accessing detailed information such as ratings, reviews, cast, and plot summaries. The integration of the movie API enriches the platform with real-time data, ensuring that users have access to the latest and most accurate information about their favorite films. Movie-Mania is a testament to my proficiency in frontend development and my ability to harness external APIs to create compelling and interactive web experiences.",
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/Projects/tree/main/React-Movies_Project/movies",
@@ -97,7 +97,7 @@ const INFO = {
         title: "Project 8 : Blogify",
         TechnologyStack:"HTML5, CSS3, JavaScript, EJS, Node.js, Express.js, AWS-elastic beanstalk",
         description:
-          "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+          "Blogify is a dynamic blogging platform built with HTML5, CSS3, JavaScript, EJS, Node.js, Express.js, and deployed on AWS Elastic Beanstalk. It facilitates user authentication with JWT, allowing secure login, logout, and account creation. Users can seamlessly create, publish, and share their blogs, enriching them with multimedia elements. The platform fosters community engagement by enabling users to comment on each other's blogs, encouraging interaction and feedback exchange. With its intuitive interface and robust functionality, Blogify offers an immersive blogging experience for both creators and readers. This project showcases my expertise in full-stack web development, emphasizing user-centric design and secure authentication practices.",
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/Blogify",
@@ -106,7 +106,7 @@ const INFO = {
         title: "Project 9 : URL-Shortner",
         TechnologyStack:"HTML5, CSS3, JavaScript, EJS, Node.js, Express.js, AWS-elastic beanstalk",
         description:
-          "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+          "In URL Shortener project is a sophisticated web application that allows users to create short, manageable URLs from long web addresses while offering robust user management and analytics features. Utilizing HTML5, CSS3, and JavaScript for the frontend, and Node.js with Express.js for the backend, the application ensures a seamless user experience. Users can register and log in securely using JSON Web Tokens (JWT), enabling personalized URL management. Once logged in, users can input long URLs to generate unique short URLs, which are stored in a database. Each access to a short URL is tracked, providing detailed analytics on the number of clicks. The user dashboard displays all shortened URLs and their performance metrics. The application is hosted on AWS Elastic Beanstalk, ensuring scalability and reliability.",
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/URL-Shortner",
