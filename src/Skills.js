@@ -35,11 +35,10 @@ const Skills = () => {
             <ul>
               <li>Git & GitHub</li>
               <li>Docker</li>
-              <li>AWS- elastic beanstalk</li>
-              <li>AWS- S3</li>
-              <li>AWS- ec2</li>
+              <li>AWS- elastic beanstalk, ec2, S3</li>
               <li>Vercel</li>
               <li>Redis</li>
+              <li>Render</li>
               <li>SQL & NoSQL Databases</li>
               <li>Postman</li>
               <li>Swagger</li>

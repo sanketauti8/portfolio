@@ -9,7 +9,7 @@ const Education = () => {
         <div className="education bg-light p-3 rounded">
           <h5 className="text-primary">Master of Science in Computer Science</h5>
           <p><em>California State University, Fullerton. [ January 2023 - December 2024 ]</em></p>
-          <p>GPA: 3.8/4.0</p>
+          <p>GPA: 3.78/4.0</p>
         </div>
         <div className="education bg-light p-3 rounded mt-3">
           <h5 className="text-primary">Bachelor of Engineering in Computer Engineering</h5>
