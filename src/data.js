@@ -68,7 +68,7 @@ const INFO = {
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/URL-Shortner",
-        livelink: "",
+        livelink: "https://url-shortener-hvr1.onrender.com/login",
       },
       {
         title: "Project 5 : CampGroundsPro",
