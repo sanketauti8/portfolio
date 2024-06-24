@@ -1,0 +1,58 @@
+.logo {
+	border-radius: 50%;
+	display: block;
+	margin: 0;
+	padding: 5px;
+    margin-top: 75px;
+    width: 100px; /* Adjust the width to your desired size */
+    height: 100px; /* Adjust the height to your desired size */
+
+    
+}
+
+
+.homepage-heading{
+    margin-left: 10px;
+   display:block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+    
+}
+.homepage-description{
+    margin-left: 10px;
+    padding-top: 30px;
+	font-size: 20px;
+    display: flex;
+}
+
+
+.homepage-logo-container {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 130px;
+}
+
+.homepage-container {
+	padding-top: 25px;
+}
+
+.homepage-first-area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.homepage-first-area-left-side {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.homepage-title {
+	width: 85% !important;
+}
+
+.homepage-subtitle {
+	width: 85% !important;
+}

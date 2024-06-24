@@ -31,31 +31,34 @@ const INFO = {
     },
     projects: [
       {
-        title: "Project 1 : File-Sharing-App",
+        title: "Project 1 : InternNest",
+        TechnologyStack:"HTML5, CSS3, JavaScript, React, Node.js, Express, Mongodb, Render",
+        description:
+          "I developed and deployed Internnest, a unique platform designed to help interns and students find apartments and essential services while relocating to a new city.Internnest is a comprehensive solution that simplifies the relocation process, providing users with a seamless experience to find their new home and other necessities. The platform integrates a chat service developed by a colleague, ensuring users have real-time support and communication. New users are seamlessly onboarded into both Internnest and the chat service databases, enhancing connectivity and support.Deployed on Render, Internnest leverages modern web technologies to offer a reliable, user-friendly interface. Whether you're an intern looking for housing or someone in need of local services, Internnest is here to make your transition smooth and stress-free.",
+        logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+        linkText: "View Project",
+        link: "https://github.com/sanketauti8/Tic-Tac-Toe",
+        livelink: "https://internify-frontend.onrender.com",
+      },
+      {
+        title: "Project 2: File-Sharing-App",
         TechnologyStack:"HTML5, CSS3, JavaScript, EJS, Node.js, Express.js, MongoDB, Render, AWS-elastic beanstalk",
         description:
           "File-Sharing-App is a web application built using HTML5, CSS3, JavaScript, EJS, Node.js, Express.js, and MongoDB. This app allows users to upload files up to 100MB and generate a shareable link for easy file distribution. Additionally, users can send the file directly via email by providing their email address and the recipient's email address, ensuring seamless file sharing without the need to manually distribute the link. The back-end is powered by Node.js and Express.js for efficient server-side operations, while MongoDB is used for secure and scalable data storage. The user interface is designed with HTML5 and CSS3 for a responsive and intuitive user experience.",
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/File-Sharing-App/tree/main",
+        livelink: "https://file-sharing-app-cr93.onrender.com",
       },
       {
-        title: "Project 2 : Meme-Generator",
+        title: "Project 3 : Meme-Generator",
         TechnologyStack:"HTML5, CSS3, bootstrap,React, Meme API, Vercel",
         description:
           "This Meme-Generator project leverages the Meme API to fetch meme template data, allowing users to create personalized memes. Utilizing a draggable library, users can easily position their text anywhere on the meme template. Once the meme is customized to their liking, it can be downloaded directly to their computer. The user interface is built with HTML5, CSS3, and Bootstrap for a sleek and responsive design, while React ensures a smooth and dynamic user experience. The project is deployed on Vercel for reliable and fast hosting.",
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/Meme-Generator/tree/main",
-      },
-      {
-        title: "Project 3 : CampGroundsPro",
-        TechnologyStack:"HTML5, CSS3, React, JavaScript, MongoDB, Express.js, Node.js",
-        description:
-          "I've developed an application that allows users to explore, add, and book campgrounds. Users can easily view all available campgrounds and check prices based on the number of people they plan to book for. Additionally, they can see which campsites are currently available and make bookings directly through the platform. This project was created using React for the front end, Node, Express for the backend, and MongoDB for the database.",
-        logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-        linkText: "View Project",
-        link: "https://github.com/sanketauti8/CampGroundsPro",
+        livelink: "https://meme-generator-app-wheat.vercel.app/",
       },
       {
         title: "Project 4 : URL-Shortner",
@@ -65,25 +68,30 @@ const INFO = {
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/URL-Shortner",
+        livelink: "",
       },
       {
-        title: "Project 5 : Inventory-Track",
+        title: "Project 5 : CampGroundsPro",
+        TechnologyStack:"HTML5, CSS3, React, JavaScript, MongoDB, Express.js, Node.js",
+        description:
+          "I've developed an application that allows users to explore, add, and book campgrounds. Users can easily view all available campgrounds and check prices based on the number of people they plan to book for. Additionally, they can see which campsites are currently available and make bookings directly through the platform. This project was created using React for the front end, Node, Express for the backend, and MongoDB for the database.",
+        logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+        linkText: "View Project",
+        link: "https://github.com/sanketauti8/CampGroundsPro",
+        livelink: "",
+      },
+      
+      {
+        title: "Project 6 : Inventory-Track",
         TechnologyStack:"HTML5, CSS3, React, JavaScript, Flask, Python, SQLAlchemy",
         description:
           "The Inventory Management System is a robust web application built with React, JavaScript, Flask, Python, SQLAlchemy, HTML, and CSS. It features a secure and efficient backend developed with Flask and SQLAlchemy, ensuring data integrity and security. The dynamic React frontend enhances user interactions, providing an intuitive and responsive interface for managing inventory. The system includes comprehensive admin access controls, preventing unauthorized access and ensuring accurate permission assignments. Users can seamlessly add, update, and delete inventory items, track stock levels, and generate reports. This project demonstrates advanced web development skills and a deep understanding of creating secure, user-friendly, and efficient inventory management solutions.",
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/Projects/tree/main/Inventory%20Management%20System",
+        livelink: "",
       },
-      {
-        title: "Project 6 : Routine-Recorder",
-        TechnologyStack:": Flask, SQLAlchemy, Python",
-        description:
-          "I've created a web application called Routine Recorder using Flask, SQLAlchemy, and Python. This app enables users to manage their daily tasks efficiently. Users can easily add, update, or delete tasks, and track their schedule throughout the day. To ensure security, I've implemented JWT authentication. With Routine Recorder, users can streamline their daily routines and stay organized effortlessly.",
-        logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-        linkText: "View Project",
-        link: "https://github.com/sanketauti8/Projects/tree/main/CPSC%20449%20MidTerm%20Project/todo-list-api-project",
-      },
+    
       {
         title: "Project 7 : Blogify",
         TechnologyStack:"HTML5, CSS3, JavaScript, EJS, Node.js, Express.js, MongoDB, AWS-elastic beanstalk",
@@ -92,6 +100,7 @@ const INFO = {
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/Blogify",
+        livelink: "",
       },
       {
         title: "Project 8 : Movie Data Analysis",
@@ -101,6 +110,7 @@ const INFO = {
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/Projects/tree/main/CPSC_531-Final-Project",
+        livelink: "",
       },
       {
         title: "Project 9 : Movie-Mania",
@@ -110,6 +120,7 @@ const INFO = {
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/Projects/tree/main/React-Movies_Project/movies",
+        livelink: "",
       },
       {
         title: "Project 10 : Weather-Finder",
@@ -119,6 +130,7 @@ const INFO = {
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/WeatherFinder",
+        livelink: "",
       },
       {
         title: "Project 11 : Map-Me",
@@ -128,18 +140,20 @@ const INFO = {
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
         link: "https://github.com/sanketauti8/MapMe",
+        livelink: "",
       },
-    
-     
       {
-        title: "Project 12 : Tic-Tac-Toe",
-        TechnologyStack:"HTML5, CSS3, JavaScript",
+        title: "Project 12 : Routine-Recorder",
+        TechnologyStack:": Flask, SQLAlchemy, Python",
         description:
-          "Tic Tac Toe Game is a classic implementation of the popular two-player game, also known as Noughts and Crosses. This web-based version allows two players to take turns marking spaces in a 3×3 grid. The first player to align three of their marks in a horizontal, vertical, or diagonal row wins the game. If all nine spaces are filled without any player forming such a row, the game ends in a draw.",
+          "I've created a web application called Routine Recorder using Flask, SQLAlchemy, and Python. This app enables users to manage their daily tasks efficiently. Users can easily add, update, or delete tasks, and track their schedule throughout the day. To ensure security, I've implemented JWT authentication. With Routine Recorder, users can streamline their daily routines and stay organized effortlessly.",
         logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
         linkText: "View Project",
-        link: "https://github.com/sanketauti8/Tic-Tac-Toe",
+        link: "https://github.com/sanketauti8/Projects/tree/main/CPSC%20449%20MidTerm%20Project/todo-list-api-project",
+        livelink: "",
       },
+     
+    
       
     
     

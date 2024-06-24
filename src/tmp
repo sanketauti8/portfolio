@@ -1,0 +1,90 @@
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <Router>
+      <h1>Home</h1>
+      <tr>
+        <th><Link to={"/home"}>Home</Link></th>
+        <th><Link to={"/Blogs"}>Blogs</Link></th>
+        <th><Link to={"/Contact"}>Contact</Link></th>
+      </tr>
+    <Routes>
+      {/* <Route path="/" element={<Layout />}> */}
+        <Route path='/home' element={<Home />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="*" element={<NoPage />} /> */}
+      
+    </Routes>
+  </Router>
+  </div>
+  </nav>
+
+
+
+  <div class="card" style={{width: '18rem'}}>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+
+  
+
+  <div id="projects" className="container my-5">
+    <h2 className="section-title text-secondary">Projects</h2>
+    <div className="row">
+      <div className="col-md-6 project bg-light p-3 rounded">
+        <h5 className="text-primary">Project One</h5>
+        <p>A brief description of the project. Technologies used: React, Node.js, MongoDB.</p>
+      </div>
+      <div className="col-md-6 project bg-light p-3 rounded">
+        <h5 className="text-primary">Project Two</h5>
+        <p>A brief description of the project. Technologies used: Python, Flask, MySQL.</p>
+      </div>
+    </div>
+  </div>.
+
+
+
+  import React from 'react';
+import INFO from './data';
+import Home from './Home';
+
+
+const AllProjects = () => {
+  return (
+    <>
+     <h2 className="section-title text-secondary">Projects</h2>
+    <div className="all-projects-container">
+       
+      {INFO.projects.map((project, index) => (
+        <div className="all-projects-project" key={index}>
+
+<div id="projects" className="container my-5">
+        
+        <div className="card" style={{ width: '18rem' }}>
+          <img src={project.logo} className="card-img-top" alt={project.title} />
+          <div className="card-body">
+            <h5 className="card-title">{project.title}</h5>
+            <h6 className="card-subtitle mb-2 text-body-secondary">project.description</h6>
+            <p className="card-text">project.description</p>
+            <a href={project.linkText} className="card-link">{project.link}</a>
+    
+          </div>
+        </div>
+      </div>
+
+
+        </div>
+      ))}
+    </div>
+    </>
+  );
+};
+
+
+
+export default AllProjects;
