@@ -17,7 +17,7 @@ const INFO = {
     homepage: {
       title: "Engineering the web, from elegant interfaces to efficient backends.",
       description:
-        " Hello! I'm Sanket Auti, a Master's student in Computer Science at California State University, Fullerton. I have a solid background in software development with 1.9 years of professional experience. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+        " Hello! I'm Sanket Auti, a Master's student in Computer Science at California State University, Fullerton. I have a solid background in software development with 2 years of professional experience. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
     },
     about: {
       title: "I am Sanket Auti, a Computer Science graduate student at California State University, Fullerton, specializing in software development",
